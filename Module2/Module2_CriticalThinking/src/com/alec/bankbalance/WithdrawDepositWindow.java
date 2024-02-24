@@ -70,7 +70,7 @@ public class WithdrawDepositWindow extends GenericWindow {
      *     https://forums.oracle.com/ords/apexds/post/how-to-insert-a-new-line-in-a-jlabel-2806</a>
      */
     private void printBalance() {
-        WithdrawDepositWindow.super.setLabel("<html>BalanceL: " + account.getBalance()
+        WithdrawDepositWindow.super.setLabel("<html>Balance: " + account.getBalance()
                 + "<br>Select whether you would like to withdraw or deposit.</html>");
     }
 
